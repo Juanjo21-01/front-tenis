@@ -15,8 +15,8 @@ function App() {
     <main className="relative">
       <Navegacion />
 
-      <section className="xl:padding-1 wide:padding-r padding-b">
-        <Hero/>
+      <section className="xl:padding-l wide:padding-r padding-b">
+        <Hero />
       </section>
 
       <section className="padding ">
