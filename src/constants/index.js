@@ -96,17 +96,17 @@ export const services = [
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: 'Morich Brown',
+    customerName: 'Mario Gómez',
     rating: 4.5,
     feedback:
-      'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',
+      'La atención al detalle y la calidad del producto superaron mis expectativas. ¡Muy recomendable!',
   },
   {
     imgURL: customer2,
-    customerName: 'Lota Mongeskar',
+    customerName: 'Karla Pérez',
     rating: 4.5,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      'El producto no sólo cumplió sino que superó mis expectativas. ¡Definitivamente seré un cliente recurrente!',
   },
 ];
 
@@ -136,7 +136,7 @@ export const footerLinks = [
     title: 'Get in touch',
     links: [
       { name: 'customer@nike.com', link: 'mailto:customer@nike.com' },
-      { name: '+92554862354', link: 'tel:+92554862354' },
+      { name: '+92554862354', link: 'tel:+502 12345678' },
     ],
   },
 ];
