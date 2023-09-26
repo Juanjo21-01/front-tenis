@@ -34,8 +34,8 @@ const Hero = () => {
         <Button label="Comprar" iconURL={arrowRight} />
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
-          {Estadisticas.map((estadistica) => (
-            <div key={estadistica.label}>
+          {Estadisticas.map((estadistica, index) => (
+            <div key={index}>
               <p className="text-4xl font-bold font-palanquin">
                 {estadistica.value}
               </p>
@@ -57,8 +57,8 @@ const Hero = () => {
         />
 
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
-          {tenis.map((item) => (
-            <div key={item.thumbnail}>
+          {tenis.map((item, index) => (
+            <div key={index}>
               <ShoeCard
                 imgURL={item}
                 changeBigShoeImage={(tenis) => setBigShoeImage(tenis)}
